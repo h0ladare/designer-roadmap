@@ -12,6 +12,8 @@ function getIdFromHash() {
   return PARENTS.find((p) => p.id === hash) ? hash : null;
 }
 
+const BASE_TITLE = 'Product design, end to end.';
+
 export default function App() {
   const [activeId, setActiveId] = useState(getIdFromHash);
   const isMobile = useIsMobile();
@@ -21,6 +23,15 @@ export default function App() {
     window.addEventListener('hashchange', onHashChange);
     return () => window.removeEventListener('hashchange', onHashChange);
   }, []);
+
+  useEffect(() => {
+    const active = PARENTS.find((p) => p.id === activeId);
+    document.title = active ? `${active.label} — ${BASE_TITLE}` : BASE_TITLE;
+    const desc = active?.blurb;
+    if (desc) {
+      document.querySelector('meta[name="description"]')?.setAttribute('content', desc);
+    }
+  }, [activeId]);
 
   const navigate = useCallback((id) => {
     if (id) {
