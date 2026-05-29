@@ -6,13 +6,22 @@
   box-sizing: border-box;
 }
 
+html,
 body {
   margin: 0;
+  overflow-x: hidden;
+}
+
+body {
   background: #0d0907;
   color: #f5ebe0;
   font-family: 'Instrument Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body.is-panel-open {
+  overflow: hidden;
 }
 
 /* ============================================================
@@ -49,7 +58,7 @@ body {
    ============================================================ */
 
 .app {
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
   background: radial-gradient(ellipse at 50% 20%, #1f1813 0%, #0d0907 70%);
   position: relative;

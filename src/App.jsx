@@ -31,6 +31,10 @@ export default function App() {
     if (desc) {
       document.querySelector('meta[name="description"]')?.setAttribute('content', desc);
     }
+    document.body.classList.toggle('is-panel-open', !!active);
+    return () => {
+      document.body.classList.remove('is-panel-open');
+    };
   }, [activeId]);
 
   const navigate = useCallback((id) => {
