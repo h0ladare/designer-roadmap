@@ -20,10 +20,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-body.is-panel-open {
-  overflow: hidden;
-}
-
 /* ============================================================
    ANIMATIONS
    ============================================================ */
@@ -251,12 +247,8 @@ body.is-panel-open {
    ============================================================ */
 
 .detail-panel {
-  position: fixed;
-  inset: 0;
-  background: rgba(12, 9, 7, 0.88);
-  backdrop-filter: blur(24px);
-  z-index: 100;
-  overflow-y: auto;
+  position: relative;
+  z-index: 1;
   animation: backdropIn 0.32s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
@@ -267,8 +259,7 @@ body.is-panel-open {
 .detail-panel__inner {
   max-width: 880px;
   margin: 0 auto;
-  padding: clamp(32px, 6vw, 48px) clamp(20px, 4vw, 32px) 80px;
-  min-height: 100vh;
+  padding: clamp(72px, 8vw, 88px) clamp(20px, 4vw, 48px) 80px;
   animation: panelIn 0.42s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 

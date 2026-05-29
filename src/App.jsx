@@ -31,10 +31,7 @@ export default function App() {
     if (desc) {
       document.querySelector('meta[name="description"]')?.setAttribute('content', desc);
     }
-    document.body.classList.toggle('is-panel-open', !!active);
-    return () => {
-      document.body.classList.remove('is-panel-open');
-    };
+    window.scrollTo(0, 0);
   }, [activeId]);
 
   const navigate = useCallback((id) => {
@@ -63,25 +60,7 @@ export default function App() {
     <div className="app">
       <Ambient />
 
-      <div className="app__content">
-        <Header isMobile={isMobile} />
-
-        <div className="card-grid">
-          {PARENTS.map((p, i) => (
-            <ParentCard
-              key={p.id}
-              data={p}
-              index={i}
-              onOpen={() => navigate(p.id)}
-              isMobile={isMobile}
-            />
-          ))}
-        </div>
-
-        <Footer isMobile={isMobile} />
-      </div>
-
-      {active && (
+      {active ? (
         <DetailPanel
           data={active}
           index={activeIndex}
@@ -90,6 +69,24 @@ export default function App() {
           onPrev={handlePrev}
           onNext={handleNext}
         />
+      ) : (
+        <div className="app__content">
+          <Header isMobile={isMobile} />
+
+          <div className="card-grid">
+            {PARENTS.map((p, i) => (
+              <ParentCard
+                key={p.id}
+                data={p}
+                index={i}
+                onOpen={() => navigate(p.id)}
+                isMobile={isMobile}
+              />
+            ))}
+          </div>
+
+          <Footer isMobile={isMobile} />
+        </div>
       )}
     </div>
   );
