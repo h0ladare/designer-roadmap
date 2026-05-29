@@ -33,8 +33,8 @@ export const PARENTS = [
         resources: [
           { type: 'article', title: 'A/B Testing 101', href: 'https://www.nngroup.com/articles/ab-testing/' },
           { type: 'article', title: 'When to Use Which UX Method', href: 'https://www.nngroup.com/articles/which-ux-research-methods/' },
-          { type: 'article', title: 'Survey Design Best Practices', href: 'https://www.nngroup.com/articles/survey-design-best-practices/' },
-          { type: 'article', title: 'Analytics for UX Designers', href: 'https://www.smashingmagazine.com/2018/10/google-analytics-ux-designers/' },
+          { type: 'article', title: 'Survey Design Best Practices', href: 'https://www.nngroup.com/articles/survey-best-practices/' },
+          { type: 'article', title: 'Analytics for UX Designers', href: 'https://www.smashingmagazine.com/2020/09/google-analytics-web-developers-ui-ux-design/' },
         ],
       },
       {
@@ -60,11 +60,11 @@ export const PARENTS = [
       },
       {
         title: 'AI-assisted research',
-        description: 'Synthesis, transcription, theme extraction — and where the human still has to do the work.',
+        description: 'Synthesis, transcription, theme extraction, and where the human still has to do the work.',
         resources: [
           { type: 'site', title: 'Dovetail (AI synthesis)', href: 'https://dovetail.com' },
           { type: 'site', title: 'Marvin (AI research repository)', href: 'https://heymarvin.com' },
-          { type: 'article', title: 'AI in UX research: a critical look', href: 'https://www.nngroup.com/articles/ai-ux-research/' },
+          { type: 'article', title: 'Accelerating UX research with AI (NN/g)', href: 'https://www.nngroup.com/articles/research-with-ai/' },
         ],
         contributions: [
           { title: 'MCP analytics integration', summary: 'Built an MCP-based workflow that surfaces Amplitude and FullStory queries directly into the design environment. Behavioral data lives next to the artwork, not in a separate tab.', context: 'Jobber', year: '2025' },
@@ -76,7 +76,7 @@ export const PARENTS = [
     id: 'product-thinking',
     label: 'Product Thinking',
     tagline: 'Own product outcomes, not just design ones.',
-    blurb: 'As the seams between design, engineering, and PM dissolve, senior designers are increasingly accountable not just for how a product looks and feels, but for whether it actually succeeds. Vision, discovery, prioritization, positioning, monetization, measurement — the full operator toolkit.',
+    blurb: 'As the seams between design, engineering, and PM dissolve, senior designers are increasingly accountable not just for how a product looks and feels, but for whether it actually succeeds. Vision, discovery, prioritization, positioning, monetization, measurement: the full operator toolkit.',
     accent: '#f0a4a4',
     glow: 'rgba(240, 164, 164, 0.35)',
     branches: [
@@ -114,9 +114,9 @@ export const PARENTS = [
         resources: [
           { type: 'article', title: 'RICE Scoring (Intercom)', href: 'https://www.intercom.com/blog/rice-simple-prioritization-for-product-managers/' },
           { type: 'article', title: 'The Kano Model', href: 'https://foldingburritos.com/blog/kano-model/' },
-          { type: 'article', title: 'Comparing Prioritization Frameworks', href: 'https://www.productplan.com/learn/product-prioritization-frameworks/' },
-          { type: 'book', title: 'Shape Up (Basecamp) — on cutting scope', href: 'https://basecamp.com/shapeup' },
-          { type: 'article', title: 'The Art of the Strategic No', href: 'https://www.intercom.com/blog/saying-no/' },
+          { type: 'article', title: 'Comparing Prioritization Frameworks', href: 'https://www.productplan.com/solutions/product-prioritization' },
+          { type: 'book', title: 'Shape Up (Basecamp): on cutting scope', href: 'https://basecamp.com/shapeup' },
+          { type: 'article', title: 'The Art of the Strategic No', href: 'https://www.intercom.com/blog/product-strategy-means-saying-no/' },
         ],
       },
       {
@@ -124,7 +124,7 @@ export const PARENTS = [
         description: 'Sequencing the work without lying about the future.',
         resources: [
           { type: 'article', title: 'Now / Next / Later Roadmaps', href: 'https://www.prodpad.com/blog/now-next-later-roadmap/' },
-          { type: 'article', title: 'How to Build a Product Roadmap', href: 'https://www.productplan.com/learn/product-roadmap-basics/' },
+          { type: 'article', title: 'How to Build a Product Roadmap', href: 'https://www.productplan.com/learn/roadmap-basics' },
           { type: 'article', title: 'Outcomes Over Outputs', href: 'https://www.svpg.com/outcomes-over-output/' },
         ],
       },
@@ -132,18 +132,18 @@ export const PARENTS = [
         title: 'Positioning & GTM',
         description: 'How a product enters a market and why people choose it. Positioning is design at the category level.',
         resources: [
-          { type: 'book', title: 'Obviously Awesome (April Dunford) — positioning', href: 'https://www.aprildunford.com/obviously-awesome' },
+          { type: 'book', title: 'Obviously Awesome (April Dunford): positioning', href: 'https://www.aprildunford.com/obviously-awesome' },
           { type: 'book', title: 'Crossing the Chasm (Geoffrey Moore)', href: 'https://www.harpercollins.com/products/crossing-the-chasm-3rd-edition-geoffrey-a-moore' },
           { type: 'article', title: 'JTBD as a Positioning Tool', href: 'https://jtbd.info/replacing-the-user-story-with-the-job-story-af7cdee10c27' },
-          { type: 'site', title: 'First Round Review — GTM essays', href: 'https://review.firstround.com/topic/marketing-2/' },
+          { type: 'site', title: 'First Round Review: GTM essays', href: 'https://review.firstround.com/articles/go-to-market/' },
         ],
       },
       {
         title: 'Launch',
-        description: 'Getting a product out the door — and the work that begins on day one.',
+        description: 'Getting a product out the door, and the work that begins on day one.',
         resources: [
-          { type: 'article', title: 'Amazon Working Backwards', href: 'https://commoncog.com/blog/the-amazon-working-backwards-method/' },
-          { type: 'article', title: 'How to write a product launch plan', href: 'https://www.productmarketingalliance.com/your-guide-to-product-launches/' },
+          { type: 'article', title: 'Amazon Working Backwards', href: 'https://commoncog.com/working-backwards/' },
+          { type: 'article', title: 'Product Launch Checklist (PMA)', href: 'https://www.productmarketingalliance.com/product-launch-checklist-framework/' },
         ],
       },
       {
@@ -151,18 +151,18 @@ export const PARENTS = [
         description: 'How a product makes money. Pricing is product, not afterthought.',
         resources: [
           { type: 'book', title: 'Monetizing Innovation (Ramanujam & Tacke)', href: 'https://www.simon-kucher.com/en/insights/monetizing-innovation' },
-          { type: 'article', title: 'SaaS Pricing Strategies (ProfitWell)', href: 'https://www.paddle.com/resources/saas-pricing-strategy' },
-          { type: 'article', title: 'Freemium vs Free Trial vs Reverse Trial', href: 'https://www.lennysnewsletter.com/p/freemium-vs-free-trial' },
-          { type: 'article', title: 'The pricing page is a design problem', href: 'https://www.intercom.com/blog/pricing-page-design/' },
+          { type: 'article', title: 'SaaS Pricing Strategies (Patrick Campbell, ProfitWell)', href: 'https://www.mindtheproduct.com/a-guide-to-unlocking-growth-with-optimized-pricing/' },
+          { type: 'article', title: 'Freemium vs Free Trial vs Reverse Trial (Elena Verna)', href: 'https://amplitude.com/blog/reverse-trial' },
+          { type: 'article', title: 'The DNA of a great pricing page (Elena Verna)', href: 'https://www.elenaverna.com/p/the-dna-of-a-great-pricing-page' },
         ],
       },
       {
         title: 'Metrics that matter',
-        description: 'Activation, retention, engagement — and the difference between vanity and signal.',
+        description: 'Activation, retention, engagement, and the difference between vanity and signal.',
         resources: [
           { type: 'article', title: 'AARRR Pirate Metrics', href: 'https://www.productplan.com/glossary/aarrr-framework/' },
           { type: 'article', title: 'North Star Framework', href: 'https://amplitude.com/north-star' },
-          { type: 'article', title: 'Choosing the Right UX Metrics (NN/g)', href: 'https://www.nngroup.com/articles/ux-metrics/' },
+          { type: 'article', title: 'Choosing the Right UX Metrics (NN/g)', href: 'https://www.nngroup.com/articles/ux-metrics-goals/' },
           { type: 'article', title: 'HEART framework (Google)', href: 'https://research.google/pubs/measuring-the-user-experience-on-a-large-scale-user-centered-metrics-for-web-applications/' },
         ],
       },
@@ -172,7 +172,7 @@ export const PARENTS = [
     id: 'ux',
     label: 'User Experience',
     tagline: 'Make complex things feel obvious.',
-    blurb: 'The discipline of designing how a system behaves across time — flows, structures, interactions, the gradient between confusion and confidence.',
+    blurb: 'The discipline of designing how a system behaves across time: flows, structures, interactions, the gradient between confusion and confidence.',
     accent: '#87c5d6',
     glow: 'rgba(135, 197, 214, 0.35)',
     branches: [
@@ -204,7 +204,7 @@ export const PARENTS = [
         resources: [
           { type: 'article', title: 'IA Basics (NN/g)', href: 'https://www.nngroup.com/articles/ia-vs-navigation/' },
           { type: 'book', title: "Information Architecture (O'Reilly)", href: 'https://www.oreilly.com/library/view/information-architecture-4th/9781491913529/' },
-          { type: 'article', title: 'User Flows: Mapping Tasks', href: 'https://www.nngroup.com/articles/user-flows/' },
+          { type: 'article', title: 'User Flows: Mapping Tasks', href: 'https://www.nngroup.com/articles/user-journeys-vs-user-flows/' },
         ],
       },
       {
@@ -221,7 +221,7 @@ export const PARENTS = [
         title: 'Prototyping & testing',
         description: 'Making it real enough to learn from.',
         resources: [
-          { type: 'article', title: 'Prototype Fidelity (NN/g)', href: 'https://www.nngroup.com/articles/ux-prototype-low-high-fidelity/' },
+          { type: 'article', title: 'Prototype Fidelity (NN/g)', href: 'https://www.nngroup.com/articles/ux-prototype-hi-lo-fidelity/' },
           { type: 'article', title: 'Usability Testing 101', href: 'https://www.nngroup.com/articles/usability-testing-101/' },
           { type: 'article', title: 'Writing Great User Stories', href: 'https://www.romanpichler.com/blog/10-tips-writing-good-user-stories/' },
         ],
@@ -230,7 +230,7 @@ export const PARENTS = [
         title: 'Content & storytelling',
         description: 'Words are interface. Microcopy is design.',
         resources: [
-          { type: 'site', title: 'UX Writing Hub', href: 'https://uxwritinghub.com/resources/' },
+          { type: 'site', title: 'UX Writing Hub', href: 'https://uxwritinghub.com/category/resources/' },
           { type: 'book', title: 'Strategic Writing for UX (Podmajersky)', href: 'https://www.oreilly.com/library/view/strategic-writing-for/9781492049388/' },
           { type: 'article', title: 'Mailchimp Voice and Tone', href: 'https://styleguide.mailchimp.com/voice-and-tone/' },
         ],
@@ -244,7 +244,7 @@ export const PARENTS = [
     id: 'ui',
     label: 'User Interface',
     tagline: 'The craft of the visible surface.',
-    blurb: 'How a product looks, feels, and responds. Typography, color, components, motion, accessibility — the layer where ideas become tangible.',
+    blurb: 'How a product looks, feels, and responds. Typography, color, components, motion, accessibility: the layer where ideas become tangible.',
     accent: '#c5d97f',
     glow: 'rgba(197, 217, 127, 0.35)',
     branches: [
@@ -263,7 +263,7 @@ export const PARENTS = [
         title: 'Components & patterns',
         description: 'The building blocks of interfaces and the patterns people already know.',
         resources: [
-          { type: 'article', title: 'Atomic Design (Brad Frost)', href: 'https://bradfrost.com/blog/post/atomic-web-design/' },
+          { type: 'article', title: 'Atomic Design (Brad Frost)', href: 'https://atomicdesign.bradfrost.com/chapter-2/' },
           { type: 'site', title: 'UI Patterns', href: 'https://ui-patterns.com' },
           { type: 'site', title: 'Mobbin (real UI examples)', href: 'https://mobbin.com' },
           { type: 'site', title: 'Page Flows', href: 'https://pageflows.com' },
@@ -283,7 +283,7 @@ export const PARENTS = [
         title: 'Motion & micro-interactions',
         description: 'How interfaces breathe. Easing, choreography, intentional delay.',
         resources: [
-          { type: 'article', title: 'An Introduction to Micro-Interactions', href: 'https://www.smashingmagazine.com/2018/08/micro-interactions-ux/' },
+          { type: 'article', title: 'An Introduction to Micro-Interactions', href: 'https://www.smashingmagazine.com/2016/08/experience-design-essentials-animated-microinteractions-in-mobile-apps/' },
           { type: 'site', title: 'Motion library docs', href: 'https://motion.dev' },
           { type: 'article', title: 'Designing UI Animation', href: 'https://uxdesign.cc/designing-ui-animations-the-ultimate-guide-2c8b3aa1f5f0' },
         ],
@@ -316,7 +316,7 @@ export const PARENTS = [
           { type: 'site', title: 'Figma Make (AI design)', href: 'https://www.figma.com/make/' },
           { type: 'site', title: 'Penpot (open source)', href: 'https://penpot.app' },
           { type: 'site', title: 'Rive (interactive animation)', href: 'https://rive.app' },
-          { type: 'site', title: 'UX Tools — current tool survey', href: 'https://uxtools.co/survey' },
+          { type: 'site', title: 'UX Tools: current tool survey', href: 'https://uxtools.co/survey' },
         ],
         contributions: [
           { title: 'DocuCrit', summary: 'Figma plugin: linter + resizer for design files. Currently in development.', context: 'Personal', year: '2026' },
@@ -345,7 +345,7 @@ export const PARENTS = [
         description: 'Bringing decision-makers along without losing the work.',
         resources: [
           { type: 'article', title: 'Define OKRs that drive design impact', href: 'https://www.atlassian.com/agile/agile-at-scale/okr' },
-          { type: 'article', title: 'Influence Without Authority', href: 'https://hbr.org/2017/04/the-art-of-persuasion-hasnt-changed-in-2000-years' },
+          { type: 'article', title: 'The Science of Persuasion (Cialdini, HBR)', href: 'https://hbr.org/2001/10/harnessing-the-science-of-persuasion' },
         ],
       },
       {
@@ -353,7 +353,7 @@ export const PARENTS = [
         description: 'How to share design so the audience actually understands it.',
         resources: [
           { type: 'article', title: 'How to Present Design Work', href: 'https://www.invisionapp.com/inside-design/present-design-work/' },
-          { type: 'book', title: 'Articulating Design Decisions (Greever)', href: 'https://articulatingdesigndecisions.com' },
+          { type: 'book', title: 'Articulating Design Decisions (Greever)', href: 'https://tomgreever.com/articulating-design-decisions-book/' },
           { type: 'article', title: 'Storytelling for designers', href: 'https://uxdesign.cc/storytelling-for-designers-a-how-to-guide-cfdab66cfb5c' },
         ],
         contributions: [
@@ -364,16 +364,16 @@ export const PARENTS = [
         title: 'Feedback & critique',
         description: 'Giving and receiving feedback in a way that improves the work.',
         resources: [
-          { type: 'book', title: 'Discussing Design (Connor & Irizarry)', href: 'https://www.discussingdesign.com' },
-          { type: 'article', title: 'How to give better design feedback (Figma)', href: 'https://www.figma.com/blog/how-to-give-better-design-feedback/' },
+          { type: 'book', title: 'Discussing Design (Connor & Irizarry)', href: 'https://www.oreilly.com/library/view/discussing-design/9781491902394/' },
+          { type: 'article', title: 'How to give better design feedback (Figma)', href: 'https://www.figma.com/blog/figmas-gift-guide-how-to-give-great-feedback/' },
         ],
       },
       {
         title: 'Methodologies',
-        description: 'Lean, Agile, Dual-Track — the rhythms design teams work in.',
+        description: 'Lean, Agile, Dual-Track: the rhythms design teams work in.',
         resources: [
-          { type: 'book', title: 'Lean UX (Gothelf)', href: 'https://www.jeffgothelf.com/blog/leanuxbook/' },
-          { type: 'article', title: 'Agile UX in practice', href: 'https://www.nngroup.com/articles/agile-ux/' },
+          { type: 'book', title: 'Lean UX (Gothelf)', href: 'https://leanuxbook.com/' },
+          { type: 'article', title: 'Agile UX in practice', href: 'https://www.nngroup.com/articles/agile-not-easy-ux/' },
           { type: 'article', title: 'Dual-Track Agile (Cagan)', href: 'https://www.svpg.com/dual-track-agile/' },
         ],
       },
@@ -381,12 +381,12 @@ export const PARENTS = [
         title: 'Portfolio & narrative',
         description: 'How you tell the story of your work outside the building.',
         resources: [
-          { type: 'article', title: 'How to write a UX case study', href: 'https://www.uxportfolioformula.com/blog/how-to-write-ux-case-studies' },
+          { type: 'article', title: 'How to write a UX case study (UXfolio)', href: 'https://blog.uxfol.io/ux-case-study-structure/' },
           { type: 'article', title: 'What hiring managers look for', href: 'https://uxdesign.cc/what-hiring-managers-look-for-in-a-portfolio' },
         ],
         contributions: [
           { title: 'Portfolio prompt system', summary: 'Five-question intake. Five distinct output types. Structured case study format aimed at executive audiences.', context: 'Personal', year: '2024' },
-          { title: 'Staff-level narrative work', summary: 'Active investment in making AI workflow contributions visible internally. Doing Staff-level work is insufficient without matching narrative — artifacts that spread, director-level relationships, and presence in the right rooms.', context: 'Jobber', year: '2025–' },
+          { title: 'Staff-level narrative work', summary: 'Active investment in making AI workflow contributions visible internally. Doing Staff-level work is insufficient without matching narrative: artifacts that spread, director-level relationships, and presence in the right rooms.', context: 'Jobber', year: '2025–' },
         ],
       },
     ],
@@ -395,7 +395,7 @@ export const PARENTS = [
     id: 'design-engineer',
     label: 'Design Engineer',
     tagline: 'Designers who ship production code.',
-    blurb: 'Skips traditional handoff. Prototypes in code where the medium demands it — motion, gesture, performance. Owns the implementation craft of the systems they help design.',
+    blurb: 'Skips traditional handoff. Prototypes in code where the medium demands it: motion, gesture, performance. Owns the implementation craft of the systems they help design.',
     accent: '#7fd1a8',
     glow: 'rgba(127, 209, 168, 0.4)',
     branches: [
@@ -405,7 +405,7 @@ export const PARENTS = [
         resources: [
           { type: 'article', title: 'Design Engineering at Vercel', href: 'https://vercel.com/blog/design-engineering-at-vercel' },
           { type: 'article', title: 'The Rise of the Generalist (Figma)', href: 'https://www.figma.com/blog/the-rise-of-the-generalist/' },
-          { type: 'article', title: 'What is a Design Engineer?', href: 'https://maggieappleton.com/design-engineer' },
+          { type: 'article', title: 'What is a Design Engineer?', href: 'https://maggieappleton.com/design-engineers' },
           { type: 'site', title: 'Linear', href: 'https://linear.app' },
           { type: 'site', title: 'Clerk', href: 'https://clerk.com' },
         ],
@@ -414,7 +414,7 @@ export const PARENTS = [
         title: 'Code fluency',
         description: 'HTML, CSS, JS, React, TypeScript. The daily languages.',
         resources: [
-          { type: 'article', title: 'MDN — Modern CSS', href: 'https://developer.mozilla.org/en-US/docs/Web/CSS' },
+          { type: 'article', title: 'MDN: Modern CSS', href: 'https://developer.mozilla.org/en-US/docs/Web/CSS' },
           { type: 'article', title: 'React docs', href: 'https://react.dev' },
           { type: 'article', title: 'Next.js docs', href: 'https://nextjs.org/docs' },
           { type: 'article', title: 'TypeScript handbook', href: 'https://www.typescriptlang.org/docs/handbook' },
@@ -423,7 +423,7 @@ export const PARENTS = [
       },
       {
         title: 'Prototyping in code',
-        description: 'When code beats Figma — motion, gesture, real-time behavior.',
+        description: 'When code beats Figma: motion, gesture, real-time behavior.',
         resources: [
           { type: 'site', title: 'Rauno Freiberg', href: 'https://rauno.me' },
           { type: 'site', title: 'Paco Coursey', href: 'https://paco.me' },
@@ -441,7 +441,7 @@ export const PARENTS = [
         resources: [
           { type: 'site', title: 'Radix Primitives', href: 'https://www.radix-ui.com/primitives' },
           { type: 'site', title: 'shadcn/ui', href: 'https://ui.shadcn.com' },
-          { type: 'article', title: 'Style Dictionary', href: 'https://amzn.github.io/style-dictionary/' },
+          { type: 'article', title: 'Style Dictionary', href: 'https://styledictionary.com/' },
           { type: 'site', title: 'Storybook', href: 'https://storybook.js.org' },
         ],
       },
@@ -477,12 +477,12 @@ export const PARENTS = [
         description: 'What AI Design is. Why probabilistic systems need different rules.',
         resources: [
           { type: 'site', title: 'Anthropic', href: 'https://www.anthropic.com' },
-          { type: 'site', title: 'Linear AI features', href: 'https://linear.app/blog/linear-for-agents' },
+          { type: 'site', title: 'Linear AI features', href: 'https://linear.app/agents' },
           { type: 'site', title: 'Notion AI', href: 'https://www.notion.so/product/ai' },
           { type: 'site', title: 'Cursor', href: 'https://cursor.com' },
         ],
         contributions: [
-          { title: 'Synapse — public architecture defense', summary: 'Built and publicly discussed a locally-run Cursor-based agent system loaded with Jobber-specific context. Defended the design against concerns about maintenance liability: context-specificity is the moat, not the scaffolding.', context: 'Jobber + public', year: '2025' },
+          { title: 'Synapse: public architecture defense', summary: 'Built and publicly discussed a locally-run Cursor-based agent system loaded with Jobber-specific context. Defended the design against concerns about maintenance liability: context-specificity is the moat, not the scaffolding.', context: 'Jobber + public', year: '2025' },
         ],
       },
       {
@@ -491,7 +491,7 @@ export const PARENTS = [
         resources: [
           { type: 'site', title: 'Microsoft HAX Toolkit', href: 'https://www.microsoft.com/en-us/haxtoolkit/' },
           { type: 'site', title: 'Google PAIR Guidebook', href: 'https://pair.withgoogle.com' },
-          { type: 'site', title: 'Apple HIG — Machine Learning', href: 'https://developer.apple.com/design/human-interface-guidelines/machine-learning' },
+          { type: 'site', title: 'Apple HIG: Machine Learning', href: 'https://developer.apple.com/design/human-interface-guidelines/machine-learning' },
           { type: 'article', title: 'Guidelines for Human-AI Interaction (Amershi et al.)', href: 'https://www.microsoft.com/en-us/research/publication/guidelines-for-human-ai-interaction/' },
           { type: 'site', title: 'IBM Design for AI', href: 'https://www.ibm.com/design/ai/' },
         ],
@@ -508,7 +508,7 @@ export const PARENTS = [
         title: 'AI interaction patterns',
         description: 'Chat, copilots, agents, generative UI.',
         resources: [
-          { type: 'site', title: 'Shape of AI (pattern library)', href: 'https://www.shape-of-ai.com' },
+          { type: 'site', title: 'Shape of AI (pattern library)', href: 'https://shapeof.ai' },
           { type: 'site', title: 'v0 by Vercel', href: 'https://v0.dev' },
           { type: 'site', title: 'Claude Artifacts', href: 'https://claude.ai' },
         ],
@@ -521,7 +521,7 @@ export const PARENTS = [
           { type: 'article', title: 'OpenAI prompt guide', href: 'https://platform.openai.com/docs/guides/prompt-engineering' },
         ],
         contributions: [
-          { title: 'Agent toolkit consolidation', summary: 'Consolidated two Claude Code toolkits — design-skills (five specialist worker personas for design phases) and pm-skills (reviewer/critique personas, slash commands, task logs) — into a unified setup. Built a combined product designer reviewer persona focused on mental models, trust signals, cognitive load, interaction patterns. Identified and fixed best-practice violations: over-stuffed CLAUDE.md files, missing context-forks on verbose skills, too many agents loaded simultaneously.', context: 'Personal', year: '2024–25' },
+          { title: 'Agent toolkit consolidation', summary: 'Consolidated two Claude Code toolkits (design-skills with five specialist worker personas for design phases, and pm-skills with reviewer/critique personas, slash commands, task logs) into a unified setup. Built a combined product designer reviewer persona focused on mental models, trust signals, cognitive load, interaction patterns. Identified and fixed best-practice violations: over-stuffed CLAUDE.md files, missing context-forks on verbose skills, too many agents loaded simultaneously.', context: 'Personal', year: '2024–25' },
         ],
       },
       {
@@ -545,7 +545,7 @@ export const PARENTS = [
           { type: 'article', title: 'Anthropic MCP', href: 'https://docs.claude.com/en/docs/mcp' },
         ],
         contributions: [
-          { title: 'Synapse — context-loaded Cursor agent', summary: 'Locally-run agent system loaded with Jobber design system, personas, content guidelines. Primary workhorse for prototyping, exploration, and competitive research.', context: 'Jobber', year: '2025' },
+          { title: 'Synapse: context-loaded Cursor agent', summary: 'Locally-run agent system loaded with Jobber design system, personas, content guidelines. Primary workhorse for prototyping, exploration, and competitive research.', context: 'Jobber', year: '2025' },
           { title: 'Multi-tool workflow stack', summary: 'Cursor as primary workhorse, Operator reserved for interactive competitor FTUX walkthroughs, isolated Claude Code or Codex sandbox for self-audits. Each tool picked for what it does best, not as a one-size-fits-all.', context: 'Personal', year: '2025' },
           { title: 'Paperclip evaluation', summary: 'Scoped Paperclip (paperclip.ing) as a potential orchestration layer. Use cases: async design critique pipelines, competitive FTUX monitoring loops, portfolio production pipelines. Approver role for me; agents run autonomously.', context: 'Personal', year: '2025' },
         ],
