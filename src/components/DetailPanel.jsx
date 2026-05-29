@@ -47,6 +47,9 @@ export function DetailPanel({ data, index, total, onClose, onPrev, onNext }) {
   return (
     <div className={panelClass}>
       <div className="detail-panel__inner">
+        <button className="detail-panel__back" onClick={handleClose}>
+          ← Back
+        </button>
         <div className={contentClass}>
           <div className="detail-panel__position" style={{ color: displayData.accent }}>
             {String(displayIndex + 1).padStart(2, '0')} / {String(total).padStart(2, '0')}
