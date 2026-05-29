@@ -25,7 +25,10 @@ export function BranchItem({ branch, index, isOpen, onToggle, accent }) {
         </div>
       </div>
 
-      {isOpen && (
+      <div
+        className={`branch-item__content-wrap${isOpen ? ' branch-item__content-wrap--open' : ''}`}
+        aria-hidden={!isOpen}
+      >
         <div className="branch-item__content">
           {branch.resources.map((r) => (
             <a
@@ -61,7 +64,7 @@ export function BranchItem({ branch, index, isOpen, onToggle, accent }) {
             </div>
           )}
         </div>
-      )}
+      </div>
     </div>
   );
 }

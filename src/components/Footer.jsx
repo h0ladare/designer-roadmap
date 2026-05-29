@@ -13,8 +13,7 @@ export function Footer({ isMobile }) {
       >
         Anastasia Prokhorova's product design roadmap
       </a>
-      . Extended for 2026, refreshed for the tools and roles that have entered
-      the picture since.
+      . Extended for 2026.
     </footer>
   );
 }
