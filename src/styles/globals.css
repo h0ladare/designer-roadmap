@@ -549,25 +549,3 @@ body {
    FOOTER
    ============================================================ */
 
-.footer {
-  padding-top: 24px;
-  border-top: 1px solid rgba(255, 255, 255, 0.06);
-  font-family: 'Instrument Sans', sans-serif;
-  font-size: 13px;
-  color: rgba(245, 235, 224, 0.35);
-  line-height: 1.5;
-  max-width: 640px;
-  position: relative;
-  z-index: 2;
-}
-
-.footer__link {
-  color: rgba(245, 235, 224, 0.6);
-  text-decoration: none;
-  border-bottom: 1px solid rgba(245, 235, 224, 0.2);
-}
-
-.footer__link:hover {
-  color: rgba(245, 235, 224, 0.8);
-  border-bottom-color: rgba(245, 235, 224, 0.4);
-}

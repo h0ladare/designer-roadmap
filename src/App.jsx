@@ -5,7 +5,6 @@ import { Ambient } from './components/Ambient';
 import { Header } from './components/Header';
 import { ParentCard } from './components/ParentCard';
 import { DetailPanel } from './components/DetailPanel';
-import { Footer } from './components/Footer';
 
 function getIdFromHash() {
   const hash = window.location.hash.slice(1);
@@ -84,8 +83,6 @@ export default function App() {
               />
             ))}
           </div>
-
-          <Footer isMobile={isMobile} />
         </div>
       )}
     </div>
